@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blogger</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .content-text {
+            font-size: 1.5rem;
+            line-height: 1.8;
+            margin-top: 20px;
+        }
+        .content-text h3 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .content-text p {
+            margin-bottom: 20px;
+        }
+        .content-text ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .content-text img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="colorlib-page">
+    <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+    <aside id="colorlib-aside" role="complementary" class="js-fullheight text-center">
+        <h1 id="colorlib-logo"><a th:href="@{/}">Võ Hữu Giác<span>.</span></a></h1>
+        <nav id="colorlib-main-menu" role="navigation">
+            <ul>
+                <li class="colorlib-active"><a th:href="@{/}">Home</a></li>
+                <li><a th:href="@{profile}">Profile</a></li>
+            </ul>
+        </nav>
+        <div class="colorlib-footer">
+            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+        </div>
+    </aside>
+
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-2">
+                <div class="col-md-7 heading-section text-center ftco-animate">
+                    <h2 class="mb-4">Blogger Võ Hữu Giác</h2>
+                    <p>Tôi là Võ Hữu Giác, một người đam mê công nghệ và lập trình, đặc biệt với Java và JavaScript. Hành trình đến với lập trình của tôi bắt đầu từ những ngày còn ngồi trên ghế nhà trường, khi lần đầu tiên viết một đoạn mã và nhận ra sức mạnh tuyệt vời của những dòng code nhỏ bé.</p>
+                </div>
+            </div>
+
+            <!-- Phần giải thích về Java với hình ảnh -->
+            <div class="row">
+                <div class="col-md-12 content-text">
+                    <h3>Tính năng nổi bật của Java</h3>
+
+                    <p>Java là một ngôn ngữ lập trình đa năng, được phát triển bởi Sun Microsystems (nay là thuộc sở hữu của Oracle). Ngôn ngữ này nổi bật với tính năng "Viết một lần, chạy mọi nơi", giúp các ứng dụng Java có thể chạy trên tất cả các nền tảng mà không gặp phải vấn đề tương thích, miễn là nền tảng đó có Java Virtual Machine (JVM) được cài đặt.</p>
+
+                    <h4>Các tính năng nổi bật của Java</h4>
+                    <img th:src="@{~/images/java3.png}" alt="Java Programming Image">
+                    <ul>
+                        <li><strong>Độc lập nền tảng:</strong> Java cho phép viết mã nguồn một lần và chạy trên mọi hệ điều hành mà không cần thay đổi, nhờ vào JVM. Điều này đảm bảo rằng ứng dụng Java có thể hoạt động trên máy tính để bàn, máy chủ, và thiết bị di động mà không gặp phải sự cố tương thích hệ điều hành.</li>
+                        <li><strong>Quản lý bộ nhớ tự động:</strong> Java sử dụng garbage collection (thu gom rác) để tự động quản lý bộ nhớ, giúp lập trình viên không cần phải lo lắng về việc giải phóng bộ nhớ thủ công, giảm thiểu rủi ro của các lỗi bộ nhớ như tràn bộ nhớ hoặc rò rỉ bộ nhớ.</li>
+                        <li><strong>Đa luồng (Multithreading):</strong> Java hỗ trợ lập trình đa luồng natively, cho phép các chương trình Java xử lý nhiều tác vụ đồng thời một cách hiệu quả. Điều này đặc biệt hữu ích trong các ứng dụng yêu cầu xử lý song song hoặc xử lý một lượng lớn dữ liệu đồng thời.</li>
+                        <li><strong>Bảo mật cao:</strong> Java được thiết kế với các tính năng bảo mật mạnh mẽ như kiểm tra mã nguồn, kiểm tra quyền truy cập và mã hóa, giúp tạo ra các ứng dụng an toàn và giảm thiểu nguy cơ tấn công từ các phần mềm độc hại hoặc các hành vi xâm phạm trái phép.</li>
+                        <li><strong>Thư viện phong phú:</strong> Java cung cấp một hệ sinh thái thư viện API rộng lớn và phong phú, bao gồm các công cụ mạnh mẽ hỗ trợ lập trình mạng, cơ sở dữ liệu, giao diện người dùng đồ họa (GUI), xử lý dữ liệu, và nhiều tính năng khác. Điều này giúp lập trình viên có thể phát triển các ứng dụng phức tạp một cách nhanh chóng và hiệu quả.</li>
+                    </ul>
+
+                    <p>Java không chỉ nổi bật trong phát triển các ứng dụng web và di động (Android), mà còn được sử dụng rộng rãi trong phát triển các hệ thống lớn và các ứng dụng doanh nghiệp. Tuy nhiên, với sự phát triển nhanh chóng của các ngôn ngữ và công nghệ mới, Java cũng đang đối mặt với một số thách thức, đặc biệt là trong các lĩnh vực yêu cầu hiệu suất cao và tài nguyên hạn chế.</p>
+                </div>
+            </div>
+
+
+
+            <footer class="ftco-footer ftco-bg-dark ftco-section">
+                <div class="container px-md-5">
+                    <div class="row mb-5">
+                        <div class="col-md">
+                            <div class="ftco-footer-widget mb-4 ml-md-4">
+                                <h2 class="ftco-heading-2">Category</h2>
+                                <ul class="list-unstyled categories">
+                                    <li><a href="#">Photography <span>(6)</span></a></li>
+                                    <li><a href="#">Fashion <span>(8)</span></a></li>
+                                    <li><a href="#">Technology <span>(2)</span></a></li>
+                                    <li><a href="#">Travel <span>(2)</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="ftco-footer-widget mb-4">
+                                <h2 class="ftco-heading-2">Archives</h2>
+                                <ul class="list-unstyled categories">
+                                    <li><a href="#">October 2018 <span>(6)</span></a></li>
+                                    <li><a href="#">September 2018 <span>(6)</span></a></li>
+                                    <li><a href="#">August 2018 <span>(8)</span></a></li>
+                                    <li><a href="#">July 2018 <span>(2)</span></a></li>
+                                    <li><a href="#">June 2018 <span>(7)</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div><!-- END COLORLIB-MAIN -->
+
+        <!-- loader -->
+        <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery-migrate-3.0.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.stellar.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/aos.js"></script>
+        <script src="js/jquery.animateNumber.min.js"></script>
+        <script src="js/bootstrap-datepicker.js"></script>
+        <script src="js/jquery.timepicker.min.js"></script>
+        <script src="js/scrollax.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+        <script src="js/google-map.js"></script>
+        <script src="js/main.js"></script>
+
+</body>
+</html>

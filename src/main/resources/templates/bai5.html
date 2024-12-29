@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blogger</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .content-text {
+            font-size: 1.5rem;
+            line-height: 1.8;
+            margin-top: 20px;
+        }
+        .content-text h3 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .content-text p {
+            margin-bottom: 20px;
+        }
+        .content-text ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .content-text img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="colorlib-page">
+    <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+    <aside id="colorlib-aside" role="complementary" class="js-fullheight text-center">
+        <h1 id="colorlib-logo"><a th:href="@{/}">Võ Hữu Giác<span>.</span></a></h1>
+        <nav id="colorlib-main-menu" role="navigation">
+            <ul>
+                <li class="colorlib-active"><a th:href="@{/}">Home</a></li>
+                <li><a th:href="@{profile}">Profile</a></li>
+            </ul>
+        </nav>
+        <div class="colorlib-footer">
+            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+        </div>
+    </aside>
+
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center mb-5 pb-2">
+                <div class="col-md-7 heading-section text-center ftco-animate">
+                    <h2 class="mb-4">Blogger Võ Hữu Giác</h2>
+                    <p>Tôi là Võ Hữu Giác, một người đam mê công nghệ và lập trình, đặc biệt với Java và JavaScript. Hành trình đến với lập trình của tôi bắt đầu từ những ngày còn ngồi trên ghế nhà trường, khi lần đầu tiên viết một đoạn mã và nhận ra sức mạnh tuyệt vời của những dòng code nhỏ bé.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 content-text">
+                    <h3>Ưu & Nhược điểm của Java</h3>
+
+                    <p>Java là một ngôn ngữ lập trình phổ biến được sử dụng rộng rãi trong phát triển phần mềm, đặc biệt là các ứng dụng lớn và phức tạp. Tuy nhiên, cũng như bất kỳ công nghệ nào, Java có những ưu và nhược điểm riêng biệt mà lập trình viên cần cân nhắc khi lựa chọn sử dụng.</p>
+                    <img th:src="@{~/images/java4.png}" alt="Java Programming Image">
+                    <h4>Ưu điểm của Java</h4>
+                    <ul>
+                        <li><strong>Độc lập nền tảng:</strong> Java thực hiện triết lý "Viết một lần, chạy mọi nơi" nhờ vào Java Virtual Machine (JVM), cho phép các chương trình Java chạy trên bất kỳ hệ điều hành nào mà không cần thay đổi mã nguồn.</li>
+                        <li><strong>Quản lý bộ nhớ tự động:</strong> Java sử dụng cơ chế garbage collection để tự động thu gom bộ nhớ không còn sử dụng, giúp giảm thiểu lỗi liên quan đến bộ nhớ và giúp lập trình viên tiết kiệm thời gian.</li>
+                        <li><strong>Đa luồng (Multithreading):</strong> Java hỗ trợ đa luồng natively, giúp lập trình viên phát triển các ứng dụng có thể thực hiện nhiều tác vụ đồng thời, tối ưu hiệu suất ứng dụng.</li>
+                        <li><strong>Bảo mật cao:</strong> Java cung cấp các công cụ bảo mật mạnh mẽ như kiểm tra quyền truy cập, mã hóa và chứng thực người dùng, giúp xây dựng các ứng dụng an toàn.</li>
+                        <li><strong>Thư viện phong phú:</strong> Java có một hệ sinh thái thư viện và API rất đa dạng, từ thư viện xử lý dữ liệu, giao tiếp mạng, cơ sở dữ liệu đến các framework như Spring và Hibernate, hỗ trợ việc phát triển phần mềm hiệu quả hơn.</li>
+                    </ul>
+
+                    <h4>Nhược điểm của Java</h4>
+                    <ul>
+                        <li><strong>Hiệu suất thấp hơn so với các ngôn ngữ khác:</strong> Vì Java chạy trên JVM, nó có thể có hiệu suất thấp hơn so với các ngôn ngữ biên dịch trực tiếp thành mã máy như C hoặc C++.</li>
+                        <li><strong>Độ phức tạp:</strong> Java có cú pháp khá chặt chẽ và đòi hỏi lập trình viên phải viết nhiều mã hơn so với một số ngôn ngữ khác, như Python, làm cho việc phát triển ứng dụng trở nên tốn thời gian và công sức.</li>
+                        <li><strong>Kích thước bộ nhớ lớn:</strong> Các ứng dụng Java có xu hướng yêu cầu bộ nhớ lớn hơn do JVM và các thư viện cần thiết để chạy ứng dụng.</li>
+                        <li><strong>Khởi động chậm:</strong> Việc JVM phải tải và biên dịch mã nguồn trước khi thực thi có thể khiến ứng dụng Java khởi động chậm hơn so với các ứng dụng biên dịch trước đó.</li>
+                    </ul>
+
+                    <p>Java là một ngôn ngữ lập trình mạnh mẽ và linh hoạt, phù hợp cho các ứng dụng quy mô lớn và có yêu cầu bảo mật cao. Tuy nhiên, nếu yêu cầu về hiệu suất là yếu tố quan trọng, có thể cần xem xét các ngôn ngữ khác.</p>
+                </div>
+            </div>
+            <!-- Phần giải thích về Java với hình ảnh -->
+
+
+
+            <footer class="ftco-footer ftco-bg-dark ftco-section">
+                <div class="container px-md-5">
+                    <div class="row mb-5">
+                        <div class="col-md">
+                            <div class="ftco-footer-widget mb-4 ml-md-4">
+                                <h2 class="ftco-heading-2">Category</h2>
+                                <ul class="list-unstyled categories">
+                                    <li><a href="#">Photography <span>(6)</span></a></li>
+                                    <li><a href="#">Fashion <span>(8)</span></a></li>
+                                    <li><a href="#">Technology <span>(2)</span></a></li>
+                                    <li><a href="#">Travel <span>(2)</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="ftco-footer-widget mb-4">
+                                <h2 class="ftco-heading-2">Archives</h2>
+                                <ul class="list-unstyled categories">
+                                    <li><a href="#">October 2018 <span>(6)</span></a></li>
+                                    <li><a href="#">September 2018 <span>(6)</span></a></li>
+                                    <li><a href="#">August 2018 <span>(8)</span></a></li>
+                                    <li><a href="#">July 2018 <span>(2)</span></a></li>
+                                    <li><a href="#">June 2018 <span>(7)</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div><!-- END COLORLIB-MAIN -->
+
+        <!-- loader -->
+        <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery-migrate-3.0.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.easing.1.3.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.stellar.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/aos.js"></script>
+        <script src="js/jquery.animateNumber.min.js"></script>
+        <script src="js/bootstrap-datepicker.js"></script>
+        <script src="js/jquery.timepicker.min.js"></script>
+        <script src="js/scrollax.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+        <script src="js/google-map.js"></script>
+        <script src="js/main.js"></script>
+
+</body>
+</html>
